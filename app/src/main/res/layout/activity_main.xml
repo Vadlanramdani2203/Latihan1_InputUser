@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:text="Menjumlahkan 2 Buah Bilangan"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/txtBil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/textView1"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="65dp"
+        android:text="Masukan Bilangan Pertama"/>
+
+    <EditText
+        android:id="@+id/bil1"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBil1"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/txtBil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/bil1"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="160dp"
+        android:text="Masukan Bilangan Kedua"/>
+
+    <EditText
+        android:id="@+id/bil2"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBil2"
+        android:layout_marginLeft="5dp" />
+
+    <Button
+        android:id="@+id/btnhitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bil2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Hitung Bilangan"/>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnhitung"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Hasil Penjumlahan"
+        android:textSize="22dp"/>
+
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasil"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
